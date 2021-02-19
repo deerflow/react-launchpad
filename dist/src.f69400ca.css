@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* CLASSES */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* COMPONENTS */
+.Launchpad {
+    background: rgb(26,27,28);
+    background: linear-gradient(45deg, rgba(26,27,28,1) 0%, rgba(83,84,91,1) 100%);
+    width: 30rem;
+    height: 30rem;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Button {
+    background: rgb(235,239,240);
+    background: radial-gradient(circle, rgba(235,239,240,1) 0%, rgba(191,228,229,1) 100%);
+    width: 7rem;
+    height: 7rem;
+    border-radius: 6px;
+    margin: 1rem;
+}
+
+.Button-yellow {
+    background: rgb(255,255,245);
+    background: radial-gradient(circle, rgba(255,255,245,1) 0%, rgba(234,197,66,1) 100%);
+}
+
+/*# sourceMappingURL=/src.f69400ca.css.map */
